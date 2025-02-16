@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: lime;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 3em;
+    color: red;
+    text-shadow: 0 0 10px red;
+}
+
+.terminal {
+    background-color: black;
+    border: 2px solid lime;
+    padding: 20px;
+    margin-top: 20px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+    height: 300px;
+    overflow-y: auto;
+}
+
+button {
+    background-color: lime;
+    border: none;
+    color: black;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: green;
+}
